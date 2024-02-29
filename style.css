@@ -1,0 +1,580 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Gilroy,sans-serif;
+    font-weight: 500;
+}
+header{
+    width: 100%;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 12px;
+}
+#head{
+    width: 1024px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+}
+.head-first{
+    width: 600px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+}
+.head-second{
+    width: 330px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+}
+.head-first img{
+    width: 122px;
+    height: 28px;
+}
+.location{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    margin-left: 46px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.location-svg svg{
+    width: 18px;
+    height: 24px;
+}
+.location-svg1 svg{
+    width: 18px;
+    height: 11px;
+    fill: rgb(0, 179, 122);
+    margin-top: 5px;
+}
+.arrow-svg{
+    width: 18px;
+    height: 11px;
+    margin-left: 3px;
+}
+.arrow-svg svg{
+    width: 18px;
+    height: 11px;
+    color: black;
+}
+.head-second button{
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: none;
+    color: rgb(23, 30, 48);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.head-second a{
+    width: 142.6px;
+    height: 100%;
+    text-decoration: none;
+}
+.arrow{
+    width: 183px;
+    height: 100%;
+    display: flex;
+}
+.arrow a{
+    width: 100%;
+    height: 100%;
+}
+.head-second button:hover{
+    color: rgb(0, 179, 122);
+}
+.head-third{
+    width: 249.29px;
+    height: 44px;
+    margin-left: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.head-third a{
+    text-decoration: none;
+    color: rgb(23, 30, 48);
+}
+.search{
+    width: 38.79px;
+    height: 100%;
+}
+.search:hover{
+    color: rgb(0, 179, 122);
+}
+.search svg{
+    height: 24px;
+    width: 28px;
+    stroke: rgb(23, 30, 48);
+}
+.search svg:hover{
+    stroke: rgb(0, 179, 122);
+}
+.search p{
+    margin: 0;
+    font-size: 12px;
+}
+.cart{
+    width: 28px;
+    height: 100%;
+}
+.cart p{
+    margin: 0;
+    font-size: 12px;
+}
+.cart:hover{
+    color: rgb(0, 179, 122);
+}
+.cart svg:hover{
+    fill: rgb(0, 179, 122);
+    stroke: none;
+}
+.sign p{
+    cursor: pointer;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 210, 144);
+    padding: 8px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+.main{
+    margin-top: 72px;
+}
+.adv{
+    width: 100%;
+    height: 44px;
+    background: linear-gradient(90.05deg, rgb(9, 17, 37) -2.5%, rgb(33, 61, 133) 100.83%);
+    display: flex;
+    justify-content: center;
+}
+.adv1{
+    width: 1024px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.adv-left{
+    width: 584px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+}
+.adv-symbal{
+    margin-right: 16px;
+    background: rgba(255, 255, 255, 0.24);
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.adv-left p{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: rgb(237, 238, 252);
+    margin-bottom: 10px;
+}
+.adv-right{
+    width: 242px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    color: rgb(0, 179, 122);
+}
+.adv-right p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: rgb(0, 179, 122);
+}
+.download-arrow{
+    width: 20px;
+    height: 13px;
+    margin-left: 6px;
+}
+.download-arrow svg{
+    height: 16px;
+    fill: rgb(0, 179, 122);
+    transform: rotate(-90deg);
+}
+.dunzo-daily{
+    width: 100%;
+    height: 513px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.main-image{
+    width: 1020px;
+    height: 433px;
+}
+.main-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    position: relative;
+}
+.try-dunzo{
+    width: 320px;
+    height: 48px;
+    position: absolute;
+    margin-left: 69px;
+    margin-top: -92px;
+}
+.try-dunzo button{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: rgb(2, 147, 101);
+    cursor: pointer;
+    border-radius: 40px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.Home{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(247, 253, 250);
+}
+.home1{
+    width: 1024px;
+    height: 16px;
+    display: flex;
+    gap: 10px;
+}
+.home-div{
+    width: 32.41px;
+    height: 100%;
+    color: rgb(0, 179, 122);
+    font-size: 12px;
+}
+.home-div a{
+    color: rgb(0, 179, 122);
+    text-decoration: none;
+    font-weight: 600;
+}
+.home-div1{
+    width: 8px;
+    height: 8px;
+    display: flex;
+    margin-top: 3px;
+}
+.home1 h3{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-size: 12px;
+    opacity: 0.45;
+    color: rgb(23, 30, 48);
+}
+.Bangalore-div{
+    width: 100%;
+    height: 567px;
+    background: rgb(247, 253, 250);
+    margin-top: -24px;
+    display: flex;
+    justify-content: center;
+}
+.Bangalore{
+    width: 1024px;
+    height: 100%;
+}
+.Bangalore p{
+    font-size: 16px;
+    color: rgb(111, 117, 136);
+    line-height: 24px;
+    font-weight: 500;
+}
+.images{
+    width: 100%;
+    height: 184px;
+    display: flex;
+    gap: 16px;
+    margin-top: 50px;
+}
+.images img{
+    width: 244px;
+    height: 184px;
+    border-radius: 8px;
+}
+.box{
+    width: 100%;
+    height: 106.4px;
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 16px;
+}
+.box a{
+    background: rgb(255, 255, 255);
+    border-radius: 4px;
+    padding: 20px 16px 16px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 4px 7px;
+    text-decoration: none;
+}
+.box img{
+    width: 40px;
+    height: 40px;
+}
+.box p{
+    font-size: 12px;
+    color: rgb(15, 25, 56);
+    margin-top: 12px;
+    font-weight: 500;
+    margin: 0;
+}
+.Live{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.29px;
+    height: 14px;
+    position: absolute;
+    padding: 3px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+    margin-top: -87px;
+    margin-left: 111px;
+}
+.Live p{
+    color: #fff;
+    font-weight: 500;
+}
+.pick{
+    width: 100%;
+    height: 365px;
+    display: flex;
+    justify-content: center;
+}
+.top-pick{
+    width: 1024px;
+    height: 317px;
+}
+.pick-up{
+    width: 100%;
+    height: 137px;
+}
+.pick-down{
+    width: 100%;
+    height: 178px;
+    display: flex;
+    gap: 16px;
+}
+.pick-up1{
+    width: 100%;
+    height: 57px;
+    padding-bottom: 32px;
+    padding-top: 48px;
+}
+.pick-up1 p{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+    color: rgb(15, 25, 56);
+    padding-bottom: 8px;
+    margin: 0%;
+}
+.pick-underline{
+    width: 100%;
+    height: 7px;
+}
+.pick-down img{
+    width: 244px;
+    height: 163.5px;
+    border-radius: 8px;
+}
+.mobile{
+    width: 100%;
+    height: 237px;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(-180deg, rgb(255, 255, 255), rgb(255, 255, 255) 30%, rgb(240, 242, 247) 15%, rgb(240, 242, 247) 85%);
+}
+.inner-mobile{
+    width: 1024px;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+}
+.left-side{
+    width: 455px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.left-side img{
+    width: 205px;
+    height: 100%;
+}
+.right-side{
+    width: 55%;
+    height: 132px;
+}
+.right-side h4{
+    font-size: 20px;
+    margin: 0;
+}
+.right-side p{
+    margin: 0;
+    font-weight: 500;
+}
+.store{
+    width: 100%;
+    height: 52px;
+    margin-top: 16px;
+    display: flex;
+    gap: 10px;
+}
+.place{
+    width: 100%;
+    height: 1307px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.area{
+    width: 1024px;
+    height: 1227px;
+}
+.head-area{
+    width: 100%;
+    height: 48.8px;
+}
+.head-area p{
+    margin-bottom: 4px;
+    color: rgb(15, 25, 56);
+    font-size: 24px;
+    font-weight: 600;
+}
+.list-place{
+    width: 100%;
+    height: 1162px;
+    display: flex;
+}
+.place-list{
+    width: 25%;
+    height: 100%;
+}
+.place-list ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.place-list li{
+    padding: 8px 0px;
+}
+.place-list a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(111, 117, 136);
+}
+.last{
+    width: 100%;
+    height: 650px;
+    background-color: rgb(23, 30, 48);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.last-div{
+    width: 1024px;
+    height: 523px;
+}
+.last-first{
+    width: 100%;
+    height: 193px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    margin-bottom: 64px;
+}
+.last-second{
+    width: 100%;
+    height: 266px;
+    display: flex;
+}
+.last-first h4{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 12px;
+    color: rgb(255, 255, 255);
+}
+.last-first p{
+    margin: 0;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(183, 186, 195);
+}
+.symbal{
+    width: 70px;
+    height: 100%;
+    margin-right: 50px;
+}
+.symbal img{
+    width: 70px;
+    height: 70px;
+}
+.options{
+    width: 214.6px;
+    height: 100%;
+    color: rgb(255, 255, 255);
+}
+.bike{
+    width: 260px;
+    height: 100%;
+}
+.options ul{
+    list-style: none;
+    padding: 0;
+}
+.options li{
+    margin-top: 16px;
+    font-size: 14px;
+}
+.options a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.options a:hover{
+    text-decoration: underline;
+}
+.options h4{
+    margin: 0;
+}
+.bike img{
+    width: 260px;
+    height: 200px;
+}
+.arrow button:hover{
+    color: rgb(0, 179, 122);
+    fill: rgb(0, 179, 122);
+}
